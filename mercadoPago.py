@@ -43,10 +43,16 @@ def save_card(customer_id, token):
     body={
         "token":token
     }
-    result = requests.post('https://api.mercadopago.com/v1/customers/'+str(customer_id)+'cards?access_token='+AT,headers=headers, data= json.dumps(body))
-    return  str(result.json())
+    result = requests.post('https://api.mercadopago.com/v1/customers/'+str(customer_id)+'/cards?access_token='+AT,headers=headers, data= json.dumps(body))
+
+    return  (result.json()['id'])
 
 def set_default_card(customer_id,card_id):
     global PK,AT,headers
-    pass
+    body={
+        "default_card":card_id
+    }
+    result = requests.post('https://api.mercadopago.com/v1/customers/'+str(customer_id)+'?access_token='+AT,headers=headers, data= json.dumps(body))
+
+    return  (result.status_code)
  

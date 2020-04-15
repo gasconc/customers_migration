@@ -1,4 +1,5 @@
 import xlrd
+import xlwt
 import pymysql.cursors
 import json
 
@@ -26,9 +27,3 @@ def read_file(row,user):
         "expiration_year": str(sheet.cell_value(row , 10)).split('-')[0]
         }
     return json.dumps(user)
-
-
-
-def read_input():
-    
-    pass
