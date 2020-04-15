@@ -33,4 +33,4 @@ $Python3 main.py
 
 ## Extra documentation:
 
-- Youtube video explanation: available soon
+- Youtube video explanation: https://www.youtube.com/watch?v=oDOLG_bOLmQ&feature=youtu.be
