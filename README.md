@@ -20,8 +20,12 @@ $pip3 install -r requirements.txt
 ```
 $Python3 main.py
 ```
+5- You can check now the progress user by user in your console output
+![image](https://user-images.githubusercontent.com/25534296/79350275-d8a87b00-7efc-11ea-9f21-1679f857aff2.png)
 
-5- Review your logs.log file
+6- Review your logs.log file , the last line contains the information about failed users
+![image](https://user-images.githubusercontent.com/25534296/79350176-bb73ac80-7efc-11ea-8d10-d54aa73382cd.png)
+
 
 ## Topics:
 
