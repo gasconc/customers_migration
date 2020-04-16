@@ -2,8 +2,9 @@ import json
 import requests
 
 #Global Variables
-PK=''
-AT=''
+
+PK='' # Set your public_key here!
+AT=''  # Set your Access_Token here!
 headers = {"Content-Type": "application/json"}
 
 
