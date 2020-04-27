@@ -26,6 +26,8 @@ $Python3 main.py
 6- Review your logs.log file , the last line contains the information about failed users
 ![image](https://user-images.githubusercontent.com/25534296/79350176-bb73ac80-7efc-11ea-8d10-d54aa73382cd.png)
 
+7- in the same root of the app you will find the output.xls file with the data of id, customer_id , card_id of the success created users
+
 
 ## Topics:
 
