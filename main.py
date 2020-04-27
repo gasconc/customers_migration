@@ -79,8 +79,7 @@ if __name__ == "__main__":
             customer_ids.append(output[1])
             bodytech_ids.append(output[0])
             card_ids.append(output[3])
-            print(customer_ids)
-            print(card_ids)
+           
 
         except requests.exceptions.HTTPError as err:
             #handling exceptions
